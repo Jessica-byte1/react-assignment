@@ -1,0 +1,53 @@
+body{
+  margin:0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.stockPage{
+  min-height:100vh;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+
+  background:linear-gradient(135deg,#0f172a,#1e293b);
+}
+
+.stockCard{
+  background:white;
+  padding:40px;
+  border-radius:14px;
+  width:360px;
+  text-align:center;
+
+  box-shadow:0 15px 35px rgba(0,0,0,0.3);
+  transition:all 0.3s ease;
+}
+
+.stockCard:hover{
+  transform:translateY(-6px) scale(1.02);
+}
+
+.stockTitle{
+  margin-bottom:20px;
+}
+
+.stockInfo p{
+  font-size:18px;
+  margin:10px 0;
+}
+
+.values{
+  margin-top:20px;
+  display:flex;
+  justify-content:space-between;
+}
+
+.min{
+  color:#dc2626;
+  font-weight:bold;
+}
+
+.max{
+  color:#16a34a;
+  font-weight:bold;
+}

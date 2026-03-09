@@ -1,0 +1,61 @@
+body{
+  margin:0;
+  font-family: Arial, Helvetica, sans-serif;
+  background:#0f172a;
+}
+
+.dashboard{
+  padding:40px;
+  color:white;
+}
+
+.title{
+  text-align:center;
+  margin-bottom:40px;
+  font-size:32px;
+}
+
+.charts{
+  display:flex;
+  gap:30px;
+  justify-content:center;
+  flex-wrap:wrap;
+}
+
+.card{
+  background:#1e293b;
+  padding:25px;
+  border-radius:14px;
+  width:420px;
+  box-shadow:0 10px 25px rgba(0,0,0,0.4);
+  transition:transform 0.3s;
+}
+
+.card:hover{
+  transform:translateY(-6px);
+}
+
+.card h2{
+  margin-bottom:5px;
+}
+
+.stockValue{
+  font-size:26px;
+  font-weight:bold;
+  margin-bottom:10px;
+}
+
+.stats{
+  display:flex;
+  justify-content:space-between;
+  margin-bottom:10px;
+  font-size:14px;
+  color:#cbd5f5;
+}
+
+.gridSection{
+  margin-top:50px;
+  background:white;
+  padding:20px;
+  border-radius:10px;
+}
